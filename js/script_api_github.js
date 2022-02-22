@@ -30,7 +30,7 @@ $(document).ready(function() {
 
             if (!isFork) {
                 $("#repository").append(
-                    "<div class='col-sm-12 col-md-6 col-lg-4 mt-4 d-flex align-items-stretch'><div class='card border-info'><div class='card-body'><div class='d-flex justify-content-between mb-2'><h6 class='card-subtitle text-warning text-uppercase'><i data-eva='code-outline' data-eva-width='25px' data-eva-height='25px'></i>&nbsp;" + repoLanguage + "</h6><h6 class='card-subtitle text-warning'><i data-eva='calendar-outline' data-eva-width='25px' data-eva-height='25px'></i>&nbsp;" +  repoDate + "</h6></div><a href='" + repoUrl + "' target='_blank' rel='noreferrer'><h5 class='card-title text-white'>" + repoName + "</h5></a><p class='card-text mt-2'>" + repoDescription + "</p></div></div></div>"
+                    "<div class='col-sm-12 col-md-6 col-lg-4 mt-4 d-flex align-items-stretch'><div class='card border-info'><div class='card-body'><div class='d-flex justify-content-between mb-2'><h6 class='card-subtitle text-warning text-uppercase'>" + repoLanguage + "</h6><h6 class='card-subtitle text-warning'>" +  repoDate + "</h6></div><a href='" + repoUrl + "' target='_blank' rel='noreferrer'><h5 class='card-title text-white'>" + repoName + "</h5></a><p class='card-text mt-2'>" + repoDescription + "</p></div></div></div>"
                 );
             }
         }
