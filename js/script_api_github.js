@@ -6,7 +6,7 @@ $(document).ready(function() {
     const settings = {
         "async": true,
         "crossDomain": true,
-        "url": "https://api.github.com/users/Ahmosys/repos",
+        "url": "https://api.github.com/users/Ahmosys/repos?type=public",
         "method": "GET",
         "headers": {}
     };
@@ -28,11 +28,9 @@ $(document).ready(function() {
                 repoLanguage = "JS"
             }
 
-            if (!isFork) {
-                $("#repository").append(
-                    "<div class='col-sm-12 col-md-6 col-lg-4 mt-4 d-flex align-items-stretch'><div class='card border-info'><div class='card-body'><div class='d-flex justify-content-between mb-2'><h6 class='card-subtitle text-warning text-uppercase'>" + repoLanguage + "</h6><h6 class='card-subtitle text-warning'>" +  repoDate + "</h6></div><a href='" + repoUrl + "' target='_blank' rel='noreferrer'><h5 class='card-title text-white'>" + repoName + "</h5></a><p class='card-text mt-2'>" + repoDescription + "</p></div></div></div>"
-                );
-            }
+            $("#repository").append(
+                "<div class='col-sm-12 col-md-6 col-lg-4 mt-4 d-flex align-items-stretch'><div class='card border-info'><div class='card-body'><div class='d-flex justify-content-between mb-2'><h6 class='card-subtitle text-warning text-uppercase'>" + repoLanguage + "</h6><h6 class='card-subtitle text-warning'>" +  repoDate + "</h6></div><a href='" + repoUrl + "' target='_blank' rel='noreferrer'><h5 class='card-title text-white'>" + repoName + "</h5></a><p class='card-text mt-2'>" + repoDescription + "</p></div></div></div>"
+            );
         }
     });
 });
