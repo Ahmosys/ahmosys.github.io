@@ -19,7 +19,7 @@ $(document).ready(function() {
                 let repoDescription = response[i]["description"];
                 let repoLanguage = response[i]["language"];
                 let repoUrl = response[i]["html_url"];
-                let repoPublishDate = response[i]["updated_at"];
+                let repoPublishDate = response[i]["created_at"];
                 let repoDate = new Date(repoPublishDate).toDateString();
                 let isFork = response[i]["fork"];
     
