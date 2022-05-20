@@ -6,7 +6,7 @@ $(document).ready(function() {
     const settings = {
         "async": true,
         "crossDomain": true,
-        "url": "https://api.github.com/users/Ahmosys/repos?type=owner",
+        "url": "https://api.github.com/users/Ahmosys/repos?type=owner&sort=created",
         "method": "GET",
         "headers": {}
     };
