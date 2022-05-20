@@ -12,7 +12,7 @@ $(document).ready(function() {
     };
 
     $.ajax(settings).done(function (response) {
-        for(let i = 1; i <= 6; i++) {
+        for(let i = 1; i < response.length; i++) {
             var repoFullName = response[i]["full_name"];
             var repoName = response[i]["name"];
             var repoDescription = response[i]["description"];
