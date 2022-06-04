@@ -10,7 +10,8 @@
     <link href="styles/nordbootstrap.css" rel="stylesheet">
     <link href="styles/style_nord.css" rel="stylesheet">
     <!-- CSS SweetAlert2 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-borderless@5.0.10/borderless.min.css">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-borderless@5.0.10/borderless.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-borderless@5.0.10/borderless.min.css"></noscript>
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -135,7 +136,7 @@
                 </div>
                 <div class="col-lg-5 d-none d-xl-block d-lg-block">
                     <img src="images/about/img_illustration_about_isometric.svg"
-                        class="img-unselectable img-floating img-fluid" loading="lazy">
+                        class="img-unselectable img-floating img-fluid">
                 </div>
             </div>
         </div>
