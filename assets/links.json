@@ -1,0 +1,170 @@
+{
+  "categories": {
+    "devops" : "DevOps 🔥",
+    "web" : "Web 🌐",
+    "network" : "Network 🚀",
+    "pictures" : "Pictures 🎨",
+    "osint" : "OSINT 🔍",
+    "privacy" : "Privacy 🔕",
+    "learning" : "Learning 📚",
+    "others" : "Others 🔧"
+  },     
+  "elements": [
+    {
+      "name": "OverAPI.com",
+      "description": "OverAPI is a site with a multitude of flashcards for each language.",
+      "link": "https://overapi.com/",
+      "categorie": "devops"
+    },
+    {
+      "name": "QuickRef.ME",
+      "description": "QuickRef.me is a site that allow to share quick reference and cheat sheet for developers.",
+      "link": "https://quickref.me/",
+      "categorie": "devops"
+    },
+    {
+      "name" : "DeveloperRoadmaps",
+      "description": "roadmap.sh is a community effort to create roadmaps, guides and other educational content to help guide the developers.",
+      "link": "https://roadmap.sh/",
+      "categorie": "devops"
+    },
+    {
+      "name" : "Lucidchart",
+      "description": "Lucidchart is the intelligent diagram editor that brings teams together and enables them to make better decisions and build the future.",
+      "link": "https://www.lucidchart.com/",
+      "categorie": "devops"
+    },
+    {
+      "name": "Airshare",
+      "description": "Airshare is a Python-based CLI tool and module that lets you transfer data between two machines in a local network, P2P, using Multicast-DNS.",
+      "link": "https://airshare.readthedocs.io/en/latest/",
+      "categorie": "network"
+    },
+    {
+      "name": "JSON Visio",
+      "description": "Don't even bother to update your schema to view your JSON into graphs; directly paste, import or fetch! JSON Visio helps you to visualize without any additional values and save your time.",
+      "link": "https://jsonvisio.com/",
+      "categorie": "web"
+    },
+    {
+      "name" : "BuiltWith",
+      "description": "BuildWith allows you to see and analyze the technologies used by a website.",
+      "link": "https://builtwith.com/",
+      "categorie": "web"
+    },
+    {
+      "name": "Laragon",
+      "description": "A great fast and easy way to create an isolated dev environment on Windows.",
+      "link": "https://laragon.org/",
+      "categorie": "web"
+    },
+    {
+      "name" : "Photorestoration",
+      "description": "photorestoration.ai restores old photos online for free.",
+      "link": "https://photorestoration.ai/",
+      "categorie": "pictures"
+    },
+    {
+      "name" : "Dowloader.la",
+      "description": "Tools and Downloaders to help you and make your life easier beyond the limits!",
+      "link": "https://dowloader.la/",
+      "categorie": "pictures"
+    },
+    {
+      "name" : "GetPaidStock",
+      "description": "GetPaidStock.com is a multisite search engine that scans and indexes the stock photos from 30+ different websites.",
+      "link" : "https://getpaidstock.com/",
+      "categorie": "pictures"
+    },
+    {
+      "name" : "Namechk",
+      "description" : "With Namechk, you can check the availability of a username or domain name within seconds.",
+      "link" : "https://namechk.com/",
+      "categorie": "osint"
+    },
+    {
+      "name": "Redact",
+      "description": "The only platform that allows you to automatically clean up your old posts from services all in one place.",
+      "link": "https://redact.dev/",
+      "categorie": "privacy"
+    },
+    {
+      "name": "DoNotSpy11",
+      "description" : "DoNotSpy11 empowers you to protect your privacy on Windows 10 and Windows 11.",
+      "link" : "https://pxc-coding.com/donotspy11/",
+      "categorie": "privacy"
+    },
+    {
+      "name": "Justdeleteme",
+      "description" : "A directory of direct links to delete your account from web services.",
+      "link" : "https://justdeleteme.xyz/",
+      "categorie": "privacy"
+    },
+    {
+      "name": "Piracy",
+      "description" : "This website is a collection of the best digital piracy resources. This will help you get started on your pirate voyage.",
+      "link" : "https://piracy.vercel.app/",
+      "categorie": "privacy"
+    },
+    {
+      "name": "FlexboxFroggy",
+      "description": "A game for learning CSS Flexbox where you help Froggy and friends by writing CSS code.",
+      "link": "https://flexboxfroggy.com/",
+      "categorie": "learning"
+    },
+    {
+      "name": "LearnGitBranching",
+      "description": "Interested in learning Git? Well you've come to the right place! 'Learn Git Branching' is the most visual and interactive way to learn Git on the web.",
+      "link": "https://learngitbranching.js.org/",
+      "categorie": "learning"
+    },
+    {
+      "name": "HackerRank",
+      "description": "Join over 16 million developers in solving code challenges on HackerRank, one of the best ways to prepare for programming interviews.",
+      "link": "https://www.hackerrank.com/",
+      "categorie": "learning"
+    },
+    {
+      "name": "CodinGame",
+      "description": "CodinGame is a challenge-based training platform for programmers where you can improve your coding skills with fun exercises (25+ languages supported) DEVELOPERS. RECRUITERS.",
+      "link": "https://www.codingame.com/",
+      "categorie": "learning"
+    },
+    {
+      "name": "Sololearn",
+      "description": "Sololearn aims to make it easy by breaking down programming concepts into quick and digestible daily lessons.",
+      "link": "https://www.sololearn.com/",
+      "categorie": "learning"
+    },
+    {
+      "name": "Edabit",
+      "description": "Edabit bridges this gap. You start on easy and progress at your own pace until you're able to master the toughest coding exercises.",
+      "link": "https://edabit.com/",
+      "categorie": "learning"
+    },
+    {
+      "name": "Ferdi",
+      "description": "Ferdi is a free and opensource all-in-one desktop app that helps you organize how you use your favourite apps.",
+      "link": "https://getferdi.com/",
+      "categorie": "others"
+    },
+    {
+      "name": "Random Prnt.sc",
+      "description": "A fun project made by Chris Hannah that finds random images stored on Prnt.sc.",
+      "link": "https://chrishannah.me/prntsc/",
+      "categorie": "others"
+    },
+    {
+      "name": "DocTranslator",
+      "description": "Doc Translator relies on the ever-improving abilities of the Google Translate service to process the text from your documents and return it in the language you need.",
+      "link": "https://www.onlinedoctranslator.com/fr/translationform",
+      "categorie": "others"
+    },
+    {
+      "name": "myNoise",
+      "description": "myNoise creates beautiful noises to mask the noises you don't want to hear: your chatty colleagues, tinnitus, or even your inner voice when you can't shut it down!",
+      "link": "https://mynoise.net/",
+      "categorie": "others"
+    }
+  ]
+}
