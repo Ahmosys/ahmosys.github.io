@@ -22,6 +22,7 @@ json_file["elements"].append({
 with open("links.json", "w", encoding = "utf-8") as f:
     json.dump(json_file, f, indent = 4, ensure_ascii = False)
 
-os.system("git add .")
-os.system('git commit -m "🌟 Added new link to links.json"')
-os.system("git push")
+if input("Do you want to add to repository ? (y/n)") == "y":  
+    os.system("git add links.json")
+    os.system('git commit -m "🌟 Added new link to links.json"')
+    os.system("git push")
