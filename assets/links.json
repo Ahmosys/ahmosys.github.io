@@ -165,6 +165,12 @@
             "description": "myNoise creates beautiful noises to mask the noises you don't want to hear: your chatty colleagues, tinnitus, or even your inner voice when you can't shut it down!",
             "link": "https://mynoise.net/",
             "categorie": "others"
+        },
+        {
+            "name": "NameOfWebsite",
+            "description": "Desc",
+            "link": "https://google.fr/",
+            "categorie": "devops"
         }
     ]
 }

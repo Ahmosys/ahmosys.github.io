@@ -3,8 +3,8 @@ import json
 
 json_file = {}
 
-if (os.path.exists("assets/links.json")):
-    with open("assets/links.json", "r", encoding = "utf-8") as f:
+if (os.path.exists("links.json")):
+    with open("links.json", "r", encoding = "utf-8") as f:
         json_file = json.loads(f.read())
    
 name_website = input("[+] Name of website : ")
@@ -19,5 +19,9 @@ json_file["elements"].append({
     "categorie": categorie_website
 })
 
-with open("assets/links.json", "w", encoding = "utf-8") as f:
+with open("links.json", "w", encoding = "utf-8") as f:
     json.dump(json_file, f, indent = 4, ensure_ascii = False)
+
+os.system("git add .")
+os.system('git commit -m "🌟 Added new link to links.json"')
+os.system("git push")
