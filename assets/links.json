@@ -177,6 +177,12 @@
             "description": "Monitorian is a desktop tool to adjust the brightness of multiple monitors with ease.",
             "link": "https://github.com/emoacht/Monitorian",
             "categorie": "others"
+        },
+        {
+            "name": "WatermarkRemover.io",
+            "description": "Get rid of the watermarks from your images using our powerful AI technology.",
+            "link": "https://www.watermarkremover.io/",
+            "categorie": "pictures"
         }
     ]
 }
