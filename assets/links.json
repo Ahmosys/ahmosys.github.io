@@ -171,6 +171,12 @@
             "description": "Chalk create beautiful images of your code source.",
             "link": "https://chalk.ist/",
             "categorie": "others"
+        },
+        {
+            "name": "Monitorian",
+            "description": "Monitorian is a desktop tool to adjust the brightness of multiple monitors with ease.",
+            "link": "https://github.com/emoacht/Monitorian",
+            "categorie": "others"
         }
     ]
 }
