@@ -50,7 +50,6 @@ $(document).ready(function() {
     // Infinite scroll for the content
     const handleIntersect = entries => {
         if (entries[0].isIntersecting) {
-            console.log(counter, $myJson.elements.length);
             // Check if the counter is less than the length of the elements
             if (counter+10 < $myJson.elements.length) {
                 // Add 10 elements to the content
