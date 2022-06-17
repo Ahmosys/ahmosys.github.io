@@ -183,6 +183,12 @@
             "description": "Get rid of the watermarks from your images using our powerful AI technology.",
             "link": "https://www.watermarkremover.io/",
             "categorie": "pictures"
+        },
+        {
+            "name": "GoogleDigitalGarage",
+            "description": "Accelerate your career or business with an online digital skills course in everything from marketing to coding and beyond.",
+            "link": "https://learndigital.withgoogle.com/",
+            "categorie": "learning"
         }
     ]
 }
