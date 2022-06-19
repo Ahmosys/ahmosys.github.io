@@ -189,6 +189,12 @@
             "description": "Accelerate your career or business with an online digital skills course in everything from marketing to coding and beyond.",
             "link": "https://learndigital.withgoogle.com/",
             "categorie": "learning"
+        },
+        {
+            "name": "Tailwind DX",
+            "description": "Tailwind DX is a Chrome DevTools extension enabling smart tools for Tailwind CSS.",
+            "link": "https://gimli.app/tailwinddx.html",
+            "categorie": "web"
         }
     ]
 }
