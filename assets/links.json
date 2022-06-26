@@ -195,6 +195,12 @@
             "description": "Tailwind DX is a Chrome DevTools extension enabling smart tools for Tailwind CSS.",
             "link": "https://gimli.app/tailwinddx.html",
             "categorie": "web"
+        },
+        {
+            "name": "ActivityWatch",
+            "description": "ActivityWatch is an app that automatically tracks how you spend time on your devices.",
+            "link": "https://activitywatch.net/",
+            "categorie": "others"
         }
     ]
 }
