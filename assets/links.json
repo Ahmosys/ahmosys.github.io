@@ -201,6 +201,12 @@
             "description": "ActivityWatch is an app that automatically tracks how you spend time on your devices.",
             "link": "https://activitywatch.net/",
             "categorie": "others"
+        },
+        {
+            "name": "LottieFiles",
+            "description": "LottieFiles provides all the tools that you need to create, edit, test and display Lottie animations.",
+            "link": "https://lottiefiles.com/",
+            "categorie": "web"
         }
     ]
 }
