@@ -207,6 +207,12 @@
             "description": "LottieFiles provides all the tools that you need to create, edit, test and display Lottie animations.",
             "link": "https://lottiefiles.com/",
             "categorie": "web"
+        },
+        {
+            "name": "Openillux",
+            "description": "Openillux is a curated list of collections on the awesome free illustrations.",
+            "link": "https://www.openillux.com/",
+            "categorie": "web"
         }
     ]
 }
